@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+       crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="container">
+			<div id="top">
+				Crystal Collector!
+			</div>
+				<div id="info">
+				<p>You will be given a random number at the start of the game.</p><br>
+
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p><br>
+
+				<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+				<br>
+				<p>The value of each crystal is hidden from you until you click on it.</p><br>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+				</div>
+			<div id="winBox">
+			<span id="myNumber"> </span>
+			<br> 
+				<div id="score">
+					<div>
+						Wins: <span id="winCount"></span>
+					</div>
+					<div>
+						Losses: <span id="lossCount"></span>
+					</div>
+				
+			</div>
+			</div>
+			<div class="buttons">
+				<button id="btn1"><img src="assets/images/blue.jpg"></button>
+				<button id="btn2"><img src="assets/images/diamond.jpg"></button>
+				<button id="btn3"><img src="assets/images/ruby.jpg"></button>
+				<button id="btn4"><img src="assets/images/emrald.jpg"></button>
+			</div>
+			<div id="scoreBox">
+						<p>Your total score is:</p>
+						<span id="totalScore"></span>
+			</div>
+			<div id="currentScore">
+				0
+				
+			</div>
+
+	</div>
+
+
+
+
+</body>
+</html>
